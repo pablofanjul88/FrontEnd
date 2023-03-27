@@ -9,26 +9,26 @@ div{
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-         width: 10%; 
-         border-radius: 100%;
-         box-shadow: 3px 3px 3px grey;
-         left: 21%;
-         top: 600px;
+        width: 10%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 21%;
+        top: 590px;
     }
 }
 @media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
-         width: 35%; 
+         width: 30%; 
          border-radius: 100%;
          box-shadow: 3px 3px 3px grey;
          left: 35%;
-         top: 630px;
+         top: 1060px;
     }
 }
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 20%;
-    margin-left: 15px;
+    margin-left: 10px;
 }
