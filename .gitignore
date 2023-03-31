@@ -1,2 +1,5 @@
 /Pablo-Fanjul/Frontend/nbproject/private/
 .DS_Store
+node_modules
+/nbproject/private/
+/Pablo-Fanjul/Backend/nbproject/
