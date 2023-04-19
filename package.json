@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@angular/platform-browser": "^15.2.5",
-    "ng-circle-progress": "^1.7.1"
-  }
-}
