@@ -26,7 +26,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity(prePostEnabled = true)
 public class MainSecurity {
     @Autowired
-    UserDetailsImpl userDetailsImpl;
+     UserDetailsImpl userDetailsServicesImpl;
 
     @Autowired
     JwtEntryPoint jwtEntryPoint;
@@ -53,7 +53,7 @@ public class MainSecurity {
                 .exceptionHandling().authenticationEntryPoint(jwtEntryPoint).and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests()
-                .requestMatchers("/**").permitAll()
+                .requestMatchers("**").permitAll()
                 .anyRequest().authenticated();
 
         http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
