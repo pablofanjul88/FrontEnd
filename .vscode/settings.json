@@ -1,3 +1,7 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "liveServer.settings.multiRootWorkspaceName": "Pablo-Fanjul",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": [
+        "src/app"
+    ]
 }
