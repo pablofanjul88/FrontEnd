@@ -3,13 +3,16 @@ import { Injectable } from '@angular/core';
 import { JwtDto } from 'app/model/jwt-dto';
 import { LoginUsuario } from 'app/model/login-usuario';
 import { NuevoUsuario } from 'app/model/nuevo-usuario';
+import { environment } from 'enviroments/enviroments';
 import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://localhost:8080/auth/'
+  authURL = 'https://backendmgb-uxo2.onrender.com/auth/';
+
+  URL = environment.URL + 'auth/';
 
   constructor(private httpClient: HttpClient) { }
 
