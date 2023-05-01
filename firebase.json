@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/pablo-fanjul",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
