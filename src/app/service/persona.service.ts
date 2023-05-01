@@ -7,8 +7,9 @@ import { persona } from 'app/model/persona.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class PersonaService {
-URL = 'http://localhost:8080/personas/';
+URL = 'https://backendmgb-uxo2.onrender.com/personas/';
 
   constructor(private http: HttpClient) { }
 

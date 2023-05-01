@@ -13,6 +13,7 @@ export class AuthService {
   authURL = 'https://backendmgb-uxo2.onrender.com/auth/';
 
   URL = environment.URL + 'auth/';
+  
 
   constructor(private httpClient: HttpClient) { }
 
