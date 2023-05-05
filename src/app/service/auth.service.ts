@@ -12,9 +12,6 @@ import { Observable } from 'rxjs';
 export class AuthService {
   authURL = 'https://backendmgb-uxo2.onrender.com/auth/';
 
-  URL = environment.URL + 'auth/';
-  
-
   constructor(private httpClient: HttpClient) { }
 
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{
